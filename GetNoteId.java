@@ -19,7 +19,7 @@ public class GetNoteId extends HttpServlet {
     static final String USER = "root";
     static final String PASS = "Xx@123456";
     static final String SQL_QURERY_STUDENT_BY_ID = "SELECT id, notepad_content FROM t_notepad WHERE id=?";
-    static final String REDIS_URL = "121.37.155.145";
+    static final String REDIS_URL = "180.76.177.163";
 
     static Connection conn = null;
     static Jedis jedis = null;
